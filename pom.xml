@@ -18,4 +18,14 @@
   <build>
     <finalName>sasiwar</finalName>
   </build>
+<distributionManagement>
+    <snapshotRepository>
+      <id>snapshotrepo</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshotrepo/</url>
+    </snapshotRepository>
+    <repository>
+      <id>releaserepo</id>
+      <url>http://localhost:8081/nexus/content/repositories/releaserepo/</url>
+    </repository>
+  </distributionManagement>
 </project>
